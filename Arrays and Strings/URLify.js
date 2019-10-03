@@ -1,8 +1,13 @@
 // Write a method to replace all spaces in a string with '%20'. 
 
 function URLify(str){
-  const a = str.replace(/ /gi, '%20')
-  return a
+  const toArray = str.split('')
+  for (let i in toArray){
+    if(toArray[i] === ' '){
+      toArray[i] = '%20'
+    }
+  }
+  return toArray.join('')
 }
 
 // Tests
