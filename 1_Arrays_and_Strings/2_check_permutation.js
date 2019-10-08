@@ -7,7 +7,7 @@ function checkPermutation(strA, strB){
   const charsA = charFrequency(strA)
   const charsB = charFrequency(strB)
   for (let char in charsA){
-    if (charsA[char] !== charsB[char] || charsA[char] === 'undefined'){
+    if (charsA[char] !== charsB[char]){
       return false
     }
   }
