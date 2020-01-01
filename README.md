@@ -1,1 +1,1 @@
-Solutions in JS: [link](https://github.com/careercup/CtCI-6th-Edition-JavaScript)
+Q&A from the book **Cracking the Coding Interview**.
